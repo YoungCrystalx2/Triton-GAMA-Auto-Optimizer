@@ -134,6 +134,7 @@ python main.py \
 ```
 
 - 参数说明
+
 | 参数 | 说明 | 默认值 |
 |------|------|--------|
 | --kernel-type | 算子类型 (matmul/vector_add/rmsnorm) | matmul |
