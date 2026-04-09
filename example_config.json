@@ -1,0 +1,21 @@
+{
+  "llm_provider": "deepseek",
+  "llm_model": "deepseek-chat",
+  "llm_api_key": null,
+  "population_size": 5,
+  "max_iterations": 10,
+  "max_time": 1200,
+  "max_tokens": 200000,
+  "mutation_rate": 0.5,
+  "crossover_rate": 0.5,
+  "selection_size": 2,
+  "kernel_type": "vector_add",
+  "kernel_name": "add_kernel",
+  "vector_size": 98432,
+  "block_size": 1024,
+  "matmul_M": 512,
+  "matmul_N": 512,
+  "matmul_K": 512,
+  "output_dir": "optimized_kernels",
+  "max_output_versions": 5
+}
